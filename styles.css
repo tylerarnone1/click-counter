@@ -1,0 +1,60 @@
+.redfont{
+    color: red;
+}
+p{
+    text-align: center;
+    font-size: 100px;
+}
+div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.plus{
+    background-color: rgba(0,0,0,0.2); /* Green */
+    border: none;
+    color: white;
+  width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    border-radius: 15%;
+    border: transparent 2px;
+    margin: 10px; 
+   
+}
+.plus:hover{
+    background-color: white;
+    color: black;
+    border: black solid 2px;
+
+}
+.minus{
+    background-color: rgba(0,0,0,0.2); 
+    border: none;
+    color: white;
+   width:100px;
+   border-radius: 15%;
+    border: transparent 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    margin: 10px;
+    
+}
+.minus:hover {
+    background-color: white;
+    color: black;
+    border: black solid 2px;
+}
+#count{
+    font-size: 60px;
+    text-align: center;
+    width:100px;
+    height: 115px;
+    border-radius: 15%;
+    border: solid 2px grey;
+    margin: 10px;
+}
